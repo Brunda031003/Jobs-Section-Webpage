@@ -3,132 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Placement Portal</title>
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- External CSS -->
-    <link rel="stylesheet" href="styles.css">
-    
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <title>Vision Astraa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">Vision Astraa</div>
-            <nav class="nav">
-                <a href="#">Home</a>
-                <a href="#">Features</a>
-                <a href="#">About Us</a>
-                <a href="#" class="highlight">EV Jobs</a>
-                <a href="#">Mentors</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Careers</a>
-                <a href="#" class="get-started">Get Started</a>
-            </nav>
-        </div>
+    <header>
+        <div class="logo">Vision Astraa</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#" class="active">EV Jobs</a></li>
+                <li><a href="#">Mentors</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </nav>
+        <button class="get-started">Get Started</button>
     </header>
 
-    <!-- Main Content -->
-    <main class="container">
-        <!-- Introduction Section -->
-        <h1 class="main-heading">Launch Your Career with the Perfect Opportunity</h1>
-        <p class="description">
-            Welcome to our Placement Portal! Here, students can explore a wide range of companies, 
-            discover exciting career opportunities, and apply directly to the roles that align with their aspirations. 
-            Start your journey to professional success with us today!
+    <section class="hero">
+        <h1>Launch Your Career with the <br> Perfect Opportunity</h1>
+        <p>Welcome to our Placement Portal! Here, students can explore a <br>
+            wide range of companies, discover exciting career opportunities, <br>
+            and apply directly to the roles that align with their aspirations. Start <br>
+            your journey to professional success with us today!
         </p>
 
-        <!-- Statistics Section -->
+        <!-- New Users Stats in a Row -->
         <div class="stats">
             <div class="stat-box purple">
                 <i class="fas fa-user"></i>
-                <p class="stat-number">1+M</p>
-                <p>New Users</p>
+                <p>1+M</p>
+                <span>New Users</span>
             </div>
             <div class="stat-box green">
                 <i class="fas fa-user"></i>
-                <p class="stat-number">1+M</p>
-                <p>New Users</p>
+                <p>1+M</p>
+                <span>New Users</span>
             </div>
             <div class="stat-box pink">
                 <i class="fas fa-user"></i>
-                <p class="stat-number">1+M</p>
-                <p>New Users</p>
+                <p>1+M</p>
+                <span>New Users</span>
             </div>
-            <div class="stat-box purple">
+            <div class="stat-box blue">
                 <i class="fas fa-user"></i>
-                <p class="stat-number">1+M</p>
-                <p>New Users</p>
+                <p>1+M</p>
+                <span>New Users</span>
             </div>
         </div>
+    </section>
 
-        <!-- Top Recruiters Section -->
-        <h2 class="section-heading">Our Top Recruiters</h2>
-        <div class="logo-grid">
-            <img src="company_logo.jpg" alt="Company logo">
-            <img src="company_logo.jpg" alt="Company logo">
-            <img src="company_logo.jpg" alt="Company logo">
-            <img src="company_logo.jpg" alt="Company logo">
-            <img src="company_logo.jpg" alt="Company logo">
-            <img src="company_logo.jpg" alt="Company logo">
+    <section class="recruiters">
+        <h2>Our Top Recruiters</h2>
+        <div class="company-logos">
+            <img src="mercedes-logo.png" alt="Mercedes">
+            <img src="mercedes-logo.png" alt="Mercedes">
+            <img src="mercedes-logo.png" alt="Mercedes">
+            <img src="mercedes-logo.png" alt="Mercedes">
+            <img src="mercedes-logo.png" alt="Mercedes">
+            <img src="mercedes-logo.png" alt="Mercedes">
         </div>
+    </section>
 
-        <!-- Mentors Section -->
-        <h2 class="section-heading">Our Mentors Come From</h2>
-        <div class="logo-grid">
-            <img src="company_logo.jpg" alt="Company logo">
-            <img src="company_logo.jpg" alt="Company logo">
-            <img src="company_logo.jpg" alt="Company logo">
-            <img src="company_logo.jpg" alt="Company logo">
-            <img src="company_logo.jpg" alt="Company logo">
-            <img src="company_logo.jpg" alt="Company logo">
+    <section class="mentors">
+        <h2>Our Mentors Come From</h2>
+        <div class="company-logos">
+            <img src="mercedes-logo.png" alt="Mercedes">
+            <img src="mercedes-logo.png" alt="Mercedes">
+            <img src="mercedes-logo.png" alt="Mercedes">
+            <img src="mercedes-logo.png" alt="Mercedes">
+            <img src="mercedes-logo.png" alt="Mercedes">
+            <img src="mercedes-logo.png" alt="Mercedes">
         </div>
-
-        <!-- RV College Partnership Section -->
-        <div class="partnership-section">
-            <div class="image-container">
-                <img src="image1.jpg" alt="Meeting 1" class="image">
-                <img src="image2.jpg" alt="Meeting 2" class="image">
-            </div>
-            
-            <div class="text-content">
-                <h2>
-                    We have a partnership with the #1 Private Engineering College in Karnataka – RV College of Engineering. 
-                    Students of VisionAstraa EV Academy will be able to attend all placements from CORE EV/Automobile companies coming to 
-                    RV College of Engineering, Bengaluru.
-                </h2>
-            </div>
+    </section>
+    <section class="partnership">
+        <div class="images">
+            <img src="images/rv1.jpg" alt="Signing Agreement">
+            <img src="images/rv3.jpg" alt="Team at RV College">
         </div>
-        
-        <h2>Featured Posts</h2>
-        <div class="post-container">
-            <div class="arrow left-arrow" onclick="moveLeft()">&#10094;</div>
-            <div class="video-card">
-                <img src="video-thumbnail.jpg" alt="Video Thumbnail" class="video-thumbnail">
-                <div class="overlay">
-                    <button class="play-button" onclick="playVideo()">▶</button>
-                </div>
-            </div>
-            <div class="arrow right-arrow" onclick="moveRight()">&#10095;</div>
-        </div>
-        <h3>Tech Talk With Vision AStrraa</h3>
         <p>
-            Adipisicing exercitation et amet tempor ipsum non. Ex ex id nostrud dolore 
-            duis est excepteur fugiat veniam. Quo consectetur sunt magna eiusmod ipsum 
-            nostrud sint consequat officia fugiat duis exercitation. 
-            Adipisicing id id est occaecat incididunt nulla ipsum magna ullamco duis ut quis.
+            We have a partnership with <strong>#1 Private Engineering College in Karnataka</strong> – 
+            <strong>RV College of Engineering</strong>, where students of 
+            <strong>VisionAstraa EV Academy</strong> would be able to attend all the placements from 
+            <strong>CORE EV/Automobile companies</strong> coming to 
+            <strong>RV College of Engineering, Bengaluru.</strong>
         </p>
-        <button class="watch-button" onclick="watchNow()">Watch Now</button>
-    </div>
-    </main>
+    </section>
+    
+    <!-- Featured Posts Section -->
+    <section class="featured-posts">
+        <h2>Featured Posts</h2>
+        <div class="carousel-container">
+            <button class="prev-btn">&#9665;</button>
+            <div class="video-card">
+                <img src="video-thumbnail.jpg" alt="Tech Talk with Vision Astraa">
+                <button class="play-btn">&#9658;</button>
+            </div>
+            <button class="next-btn">&#9655;</button>
+        </div>
+        <div class="post-description">
+            <h3>Tech Talk With Vision Astraa</h3>
+            <p>
+                Adipisicing exercitation et amet tempor ipsum non. Ex ex id nostrud dolore
+                duis est excepteur fugiat veniam. Qui consectetur sunt magna eiusmod ipsum.
+            </p>
+            <button class="watch-btn">Watch Now</button>
+        </div>
+    </section>
 
+</body>
+</html>
+
+    
 </body>
 </html>
